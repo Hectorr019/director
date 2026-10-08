@@ -13,7 +13,7 @@ let isAudioEnabled = false;
 let isCameraEnabled = false;
 
 // Configuración del servidor de signaling
-const signalingServer = 'https://asks-confidence-mime-notifications.trycloudflare.com'; // Cambia esto por tu servidor de signaling
+const signalingServer = 'wss://depot-gets-taken-oregon.trycloudflare.com'; // Cambia esto por tu servidor de signaling
 
 // Configuración del ICE server (configura esto según tu entorno)
 const iceServers = {
